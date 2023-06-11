@@ -46,6 +46,10 @@ li {
     color: #1F2937;
 }
 
+.blue-back {
+    background-color: #3882F6;
+}
+
 #intro {
     display: flex;
     min-height: 350px;
@@ -81,6 +85,40 @@ li {
     width: 600px;
 }
 
+#information {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+#info-images {
+    display: flex;
+    gap: 50px;
+}
+
+#info-images > figure {
+    max-width: 200px;
+}
+
+#info-images > figure > figcaption {
+    text-align: center;
+}
+
+.empty-frame {
+    height: 200px;
+    width: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
 #quotation {
     display: flex;
     justify-content: center;
@@ -104,5 +142,38 @@ li {
 
 #quotation-author {
     font-size: 24px;
+    font-weight: bold;
+}
+
+#footer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#advert {
+    width: 1000px;
+    height: 100px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+#advert > button {
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px 10px;
     font-weight: bold;
 }
