@@ -10,24 +10,99 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    background-color: #1F2937;
 }
 
 header > p {
-    margin: 10px 20px;
-    color: #F9FAF8;
+    margin: 10px 0px 10px 200px;
     font-size: 24px;
+    font-weight: bold;
 }
 
 ul {
     display: flex;
     justify-content: space-around;
     gap: 10px;
+    margin-right: 200px;
 }
 
 li {
     margin: 10px;
     font-size: 18px;
-    color: #E5E7EB;
     align-self: center;
+}
+
+.navy-back {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.white-back {
+    color: #1F2937;
+    background-color: white;
+}
+
+.grey-back {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+#intro {
+    display: flex;
+    min-height: 350px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#intro-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 200px;
+    max-width: 400px;
+}
+
+#intro-left > button {
+    width: 100px;
+    padding: 5px 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#intro-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    background-color: grey;
+    height: 300px;
+    width: 600px;
+}
+
+#quotation {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+#internal-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 800px;
+    gap: 10px;
+}
+
+#quotation-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+#quotation-author {
+    font-size: 24px;
+    font-weight: bold;
 }
