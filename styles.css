@@ -13,7 +13,7 @@ header {
 }
 
 header > p {
-    margin: 10px 0px 10px 200px;
+    margin: 10px 0px 10px 300px;
     font-size: 24px;
     font-weight: bold;
 }
@@ -22,7 +22,7 @@ ul {
     display: flex;
     justify-content: space-around;
     gap: 10px;
-    margin-right: 200px;
+    margin-right: 300px;
 }
 
 li {
@@ -61,7 +61,7 @@ li {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin-left: 200px;
+    margin-left: 300px;
     max-width: 400px;
 }
 
@@ -79,7 +79,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 200px;
+    margin-right: 300px;
     background-color: grey;
     height: 300px;
     width: 600px;
